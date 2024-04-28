@@ -15,6 +15,6 @@ class Bloop < Formula
   end
 
   test do
-    system "bloop"
+    system "#{bin}/bloop"
   end
 end
