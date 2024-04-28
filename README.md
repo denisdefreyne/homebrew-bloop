@@ -1,11 +1,9 @@
-# Denisdefreyne Bloop
+# bloop Homebrew tap
 
-## How do I install these formulae?
+This is an example formula.
 
-`brew install denisdefreyne/bloop/<formula>`
+To install, either:
 
-Or `brew tap denisdefreyne/bloop` and then `brew install <formula>`.
+- `brew install denisdefreyne/bloop/bloop`
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+- `brew tap denisdefreyne/bloop`; `brew install bloop`.
