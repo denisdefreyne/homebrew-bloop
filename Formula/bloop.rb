@@ -1,11 +1,11 @@
 class Bloop < Formula
   desc "Does nothing useful"
   homepage "https://rubygems.org/gems/bloop"
-  url "https://rubygems.org/downloads/bloop-0.1.2.gem"
-  sha256 "ddedfcefaed8515622dde34c50bb505f405f79011bac9aaac811ea84a4d3cf51"
+  url "https://rubygems.org/downloads/bloop-0.1.3.gem"
+  sha256 "87493f014b9b601eb6c6fbebb68f31bd573c83bd4b834de5e25daa6ba6f7694b"
   license "MIT"
 
-  uses_from_macos "ruby"
+  depends_on "ruby"
 
   def install
     ENV["GEM_HOME"] = libexec
